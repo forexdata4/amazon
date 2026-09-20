@@ -6,7 +6,7 @@ on:
       symbol:
         description: "Symbol (e.g. XAUUSD)"
         required: true
-        default: "JPMUSUSD"
+        default: "AMZNUSUSD"
       year:
         description: "Year to backfill as daily BIN files; leave empty to use start/end"
         required: false
