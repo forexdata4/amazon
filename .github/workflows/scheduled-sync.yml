@@ -8,7 +8,7 @@ on:
       symbols:
         description: "Space-separated symbols"
         required: false
-        default: "JPMUSUSD"
+        default: "AMZNUSUSD"
       start:
         description: "Optional override start date (YYYY-MM-DD)"
         required: false
@@ -22,7 +22,7 @@ permissions:
   contents: read
 
 env:
-  DEFAULT_SYMBOLS: "JPMUSUSD"
+  DEFAULT_SYMBOLS: "AMZNUSUSD"
   HF_DATASET: Esmaeil9ss/Tickdata
 
 jobs:
