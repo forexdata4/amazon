@@ -8,7 +8,7 @@ on:
       symbols:
         description: "Space-separated symbols"
         required: false
-        default: "EURUSD"
+        default: "JPMUSUSD"
       start:
         description: "Optional override start date (YYYY-MM-DD)"
         required: false
@@ -22,7 +22,7 @@ permissions:
   contents: read
 
 env:
-  DEFAULT_SYMBOLS: "ussc2000idxusd"
+  DEFAULT_SYMBOLS: "JPMUSUSD"
   HF_DATASET: Esmaeil9ss/Tickdata
 
 jobs:
